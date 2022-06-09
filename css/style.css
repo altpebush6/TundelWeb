@@ -1,0 +1,13 @@
+body {
+    background-color: #F0F0F0 !important;
+}
+
+
+.cat-card {
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+.cat-card:hover {
+    transform: rotateY(0deg);
+}
